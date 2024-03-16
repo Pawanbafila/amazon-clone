@@ -1,0 +1,67 @@
+@media (max-width:768px) {
+    .header {
+        justify-content: space-around;
+    }
+
+    .header .location {
+        display: none;
+    }
+
+    .header .logo {
+        width: 10%;
+    }
+
+    .header .logo img {
+        width: 70%;
+    }
+
+    .search-group {
+        width: 55%;
+    }
+
+    .header .account {
+        display: none;
+    }
+
+    .header .order {
+        display: none;
+    }
+
+    .header-list span,
+    p {
+        font-size: 1.8vw;
+    }
+    .header .lang img{
+        margin: 0 2px;
+    }
+    .header .cart{
+        width: 10%;
+        
+    }
+    .header .cart i{
+        display: flex;
+        align-items: center;
+    }
+    .cart i::after{
+        top: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+    /******************************************************************
+    * Here our second header 
+    *******************************************************************/
+
+    .header-two ul {
+        overflow-x: scroll;
+        font-size: 1.5vw;
+    }
+
+}
