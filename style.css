@@ -55,7 +55,8 @@ p {
     width: 7%;
     height: 100%;
 }
-.logo:hover{
+
+.logo:hover {
     border: solid white 1px;
 }
 
@@ -79,7 +80,8 @@ p {
 
 
 }
-.location:hover{
+
+.location:hover {
     border: solid white 1px;
 }
 
@@ -109,7 +111,8 @@ p {
 }
 
 .search-group input,
-i, select {
+i,
+select {
     height: 35px;
 }
 
@@ -145,13 +148,15 @@ i, select {
     height: 100% !important;
 }
 
-.header .lang:hover{
+.header .lang:hover {
     border: solid white 1px;
 }
-.btn{
+
+.btn {
     border: none !important;
     border-color: none !important;
 }
+
 .header .account {
 
     line-height: 1.2;
@@ -162,13 +167,14 @@ i, select {
     align-items: flex-start;
 
 }
-.header .account p{
+
+.header .account p {
     padding: 0 0;
-    margin:  0 0 !important;
+    margin: 0 0 !important;
     font-size: .8vw;
 }
 
-.header .account:hover{
+.header .account:hover {
     border: solid white 1px;
 }
 
@@ -193,7 +199,8 @@ i, select {
 .header .order {
     line-height: 1;
 }
-.header .order:hover{
+
+.header .order:hover {
     border: solid white 1px;
 }
 
@@ -203,9 +210,11 @@ i, select {
     display: flex;
     align-items: center;
 }
-.header .cart:hover{
+
+.header .cart:hover {
     border: solid white 1px;
 }
+
 .cart i::after {
     content: "0";
     color: #F3A847;
@@ -235,10 +244,11 @@ i, select {
     color: white;
     list-style: none;
     font-size: 1vw;
-  padding: 0 0;
-  margin: 0 0;
+    padding: 0 0;
+    margin: 0 0;
 }
-.header-two ul li{
+
+.header-two ul li {
     height: 100%;
     width: 100%;
     display: flex;
@@ -253,15 +263,17 @@ i, select {
     text-decoration: none;
     color: white;
 }
-.header-two ul li:hover{
+
+.header-two ul li:hover {
     border: solid white 1px;
 }
 
-.header-two .sec-bar{
-    display:none;
+.header-two .sec-bar {
+    display: none;
     color: white;
     font-size: 5vw;
 }
+
 .header-two .account2 {
     display: none;
 }
@@ -276,23 +288,50 @@ i, select {
 *******************************************************************/
 
 .banner {
-    position: relative;
+    height: 300px !important;
+    z-index: -1;
 }
 
 
 .carousel-control-prev {
     width: 10%;
-    height: 50%;
+    height: 100%;
     background-color: rgba(255, 255, 255, 0.305);
 }
 
 .carousel-control-next {
     width: 10%;
-    height: 50%;
+    height: 100%;
     background-color: rgba(255, 255, 255, 0.305);
 }
 
 
+
+
+/******************************************************************
+* Here our first shop list group start 
+*******************************************************************/
+
+.shop-list1 {
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+
+}
+
+.shop-list1 .shop-img {
+   
+flex-direction: row !important;
+flex-wrap: wrap;
+justify-content: space-evenly;
+
+
+}
+
+.shop-list1 .shop-img .img-1 {
+    width: 45%;
+    margin: 5px 0;
+
+}
 
 /******************************************************************
 * Here our shop list start 
