@@ -12,7 +12,7 @@
     }
 
     .header .logo img {
-        width: 70%;
+        width: 90%;
     }
 
     .search-group {
@@ -62,6 +62,73 @@
     .header-two ul {
         overflow-x: scroll;
         font-size: 1.5vw;
+    }
+
+}
+
+@media (max-width:576px) {
+    .header {
+        justify-content: space-around;
+    }
+
+    .header .logo {
+        width: 10%;
+    }
+
+    .header .logo img {
+        width: 90%;
+    }
+
+    .search-group {
+        width: 65%;
+    }
+
+    .header-list span,
+    p {
+        font-size: 1.8vw;
+    }
+    .header .lang img{
+        width: 100%;
+    }
+    .header .lang span{
+        display: none;
+    }
+    .header .cart{
+        width: 10%;
+        
+    }
+    .header .cart i{
+        display: flex;
+        align-items: center;
+    }
+    .header .cart span{
+        display: none;
+    }
+    .cart i::after{
+        top: 5px;
+    }
+
+
+
+
+
+
+
+
+
+    .header-two ul{
+        display: none;
+    }
+    .header-two .sec-bar{
+        display: inline-block;
+        margin: 0 10px;
+        
+    }
+    .header-two{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+       
     }
 
 }

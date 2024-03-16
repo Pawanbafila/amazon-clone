@@ -254,6 +254,12 @@ i, select {
     border: solid white 1px;
 }
 
+.header-two .sec-bar{
+    display:none;
+    color: white;
+    font-size: 5vw;
+}
+
 
 
 
