@@ -87,8 +87,14 @@
     p {
         font-size: 1.8vw;
     }
+    .header .lang{
+        width: 10%;
+    }
     .header .lang img{
         width: 100%;
+    }
+    .header .lang:hover{
+        border: none;
     }
     .header .lang span{
         display: none;
@@ -98,6 +104,7 @@
         
     }
     .header .cart i{
+        font-size: 100%;
         display: flex;
         align-items: center;
     }
@@ -128,7 +135,106 @@
         display: flex;
         justify-content: start;
         align-items: center;
+        position: relative;
        
+    }
+    .header-two .account2 {
+        display: inline-block;
+        color: white;
+        position: absolute;
+        right: 10px;
+      
+    }
+
+}
+
+
+
+@media (max-width:450px) {
+    .header {
+        justify-content: space-evenly;
+        align-items: start;
+        min-height: 90px;
+       
+        
+    }
+
+    .header .logo {
+        width: 40%;
+    }
+
+    .header .logo img {
+        width: 50%;
+    }
+
+    .search-group {
+        width: 100%;
+       order: 4;
+    }
+
+    .header-list span,
+    p {
+        font-size: 1.8vw;
+    }
+    .header .lang{
+    
+        width: 10%;
+    }
+    .header .lang img{
+        width: 100%;
+    }
+    .header .lang:hover{
+        border: none;
+    }
+    .header .lang span{
+        display: none;
+    }
+    .header .cart{
+        width: 15%;
+        
+    }
+    .header .cart i{
+        font-size: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .header .cart span{
+        display: none;
+    }
+    .cart i::after{
+        top: 5px;
+    }
+  
+
+
+
+
+
+
+
+
+
+    .header-two ul{
+        display: none;
+    }
+    .header-two .sec-bar{
+        display: inline-block;
+        margin: 0 10px;
+        
+    }
+    .header-two{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        position: relative;
+       
+    }
+    .header-two .account2 {
+        display: inline-block;
+        color: white;
+        position: absolute;
+        right: 10px;
+      
     }
 
 }

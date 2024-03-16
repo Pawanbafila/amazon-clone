@@ -148,7 +148,10 @@ i, select {
 .header .lang:hover{
     border: solid white 1px;
 }
-
+.btn{
+    border: none !important;
+    border-color: none !important;
+}
 .header .account {
 
     line-height: 1.2;
@@ -259,7 +262,9 @@ i, select {
     color: white;
     font-size: 5vw;
 }
-
+.header-two .account2 {
+    display: none;
+}
 
 
 
