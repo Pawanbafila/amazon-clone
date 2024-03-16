@@ -1,13 +1,16 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-html,body {
+
+html,
+body {
     font-family: amazon1;
-height: 100%;
-width: 100%;
+    height: 100%;
+    width: 100%;
 }
+
 @font-face {
     font-family: amazon1;
     src: url(fonts/pDxWAF1pBB0dzGB.ttf);
@@ -18,92 +21,115 @@ width: 100%;
 * Here our header part starts 
 *******************************************************************/
 
-.header{
-   
+.header {
+
     background-color: #131921;
     min-height: 60px;
     height: auto;
     width: 100%;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     color: white;
     flex-wrap: wrap;
 }
 
-.header-list span,p{
-font-size: 12px;
-margin: 0 0;
+.header-list span,
+p {
+    font-size: 1vw;
+    margin: 0 0;
 }
+
 .header-list {
-    height: 100% !important;
+    min-height: 60px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
 /******************************************************************
 * Here our logo & location css
 *******************************************************************/
-.logo{
+.logo {
     width: 7%;
     height: 100%;
 }
-.logo img{
+.logo:hover{
+    border: solid white 1px;
+}
+
+.logo img {
     width: 100%;
     height: 100%;
 }
 
 /*** location  *****/
 
-.location{
+.location {
     width: 10%;
     height: 100%;
-    
+
 }
-.locaicon{
+
+.locaicon {
     display: flex;
     justify-content: left;
-    align-items:end;
+    align-items: end;
 
- 
+
 }
-.locaicon i{
-    padding: 15px 0;
+.location:hover{
+    border: solid white 1px;
 }
-.location p{
-    font-size: 10px;
+
+.locaicon i {
+    padding: .9vw 0;
+}
+
+.location p {
+    font-size: .7vw;
     color: #D4D4D4;
 }
+
 .location a p {
-    font-size: 12px;
+    font-size: .8vw;
 }
 
 /******************************************************************
 * Here our search group  
 *******************************************************************/
 
-.search-group{
+.search-group {
     width: 40%;
     height: 100%;
     display: flex;
     justify-content: center;
 
 }
-.search-group input , i{
-   height: 35px;
+
+.search-group input,
+i, select {
+    height: 35px;
 }
-.search-group i{
-background-color: #F3A847;
-width: 10%;
-padding: 10px;
-color: #131921;
-border-radius: 0 5px 5px 0;
+
+.search-group i {
+    background-color: #F3A847;
+    width: 10%;
+    padding: 10px;
+    color: #131921;
+    border-radius: 0 5px 5px 0;
 
 }
-.search-group input{
+
+.search-group input {
     width: 90%;
     padding-left: 10px;
     border: none;
 }
-.search-group select{
-    padding-left:10px;
+
+.search-group select {
+    padding-left: 10px;
     border-radius: 5px 0 0 5px;
     border: none;
     background-color: #D4D4D4;
@@ -114,21 +140,32 @@ border-radius: 0 5px 5px 0;
 * Here our language and sign account part css 
 *******************************************************************/
 
-.header .lang{
-    width: 4% !important;
+.header .lang {
+    width: 7% !important;
     height: 100% !important;
 }
 
+.header .lang:hover{
+    border: solid white 1px;
+}
 
-.header .account{
-width: 8%;
-height: 100%;
+.header .account {
 
-
+    line-height: 1.2;
+    width: 10%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
 
 }
-.header .account span{
-    font-size: 10px;
+
+.header .account:hover{
+    border: solid white 1px;
+}
+
+.header .account span {
+    font-size: .8vw;
 }
 
 
@@ -139,25 +176,106 @@ height: 100%;
 * Here our orders and cart css start  
 *******************************************************************/
 
-.header .order, .cart{
+.header .order,
+.cart {
     width: 5%;
     height: 100%;
 }
-.header .order span{
-   
+
+.header .order {
+    line-height: 1;
+}
+.header .order:hover{
+    border: solid white 1px;
 }
 
-.header .cart i{
-   font-size: 25px;
-   position: relative;
-   
-}
+.header .cart i {
+    font-size: 2vw;
+    position: relative;
 
-.cart i::after{
+}
+.header .cart:hover{
+    border: solid white 1px;
+}
+.cart i::after {
     content: "0";
     color: #F3A847;
     position: absolute;
-    font-size: 20px;
+    font-size: 1.3vw;
     top: -10px;
     right: 5px;
 }
+
+
+
+
+/******************************************************************
+* Here our header two css start 
+*******************************************************************/
+
+.header-two {
+    width: 100%;
+    height: 50px;
+
+    background-color: #232F3E;
+}
+
+.header-two ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    font-size: 1vw;
+
+}
+.header-two ul li{
+    height: 100%;
+    width: 99%;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+
+}
+
+.header-two ul li a {
+    text-decoration: none;
+    color: white;
+}
+.header-two ul li:hover{
+    border: solid white 1px;
+}
+
+
+
+
+/******************************************************************
+* Here our banner work starts 
+*******************************************************************/
+
+.banner {
+    position: relative;
+}
+
+
+.carousel-control-prev {
+    width: 10%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.305);
+}
+
+.carousel-control-next {
+    width: 10%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.305);
+}
+
+
+
+/******************************************************************
+* Here our shop list start 
+*******************************************************************/
