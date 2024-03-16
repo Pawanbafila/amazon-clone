@@ -293,13 +293,15 @@ select {
 }
 
 
-.carousel-control-prev {
+.pre {
+    z-index: 3;
     width: 10%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.305);
 }
 
-.carousel-control-next {
+.nex {
+    z-index: 3;
     width: 10%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.305);
@@ -314,7 +316,7 @@ select {
 
 .shop-list1 {
     background-color: rgba(255, 255, 255, 0);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
 
 }
 
