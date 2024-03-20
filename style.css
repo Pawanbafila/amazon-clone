@@ -51,7 +51,7 @@ p {
 /******************************************************************
 * Here our logo & location css
 *******************************************************************/
-.logo {
+.header .logo {
     width: 7%;
     height: 100%;
 }
@@ -103,7 +103,7 @@ p {
 *******************************************************************/
 
 .search-group {
-    width: 40%;
+    width: 45%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -151,6 +151,9 @@ select {
 .header .lang:hover {
     border: solid white 1px;
 }
+.header .lang li a:hover{
+    background-color: #d4d4d4;
+}
 
 .btn {
     border: none !important;
@@ -163,9 +166,8 @@ select {
     width: 10%;
     height: 100%;
     flex-direction: column;
-    justify-content: end;
-    align-items: flex-start;
-
+  justify-content: center;
+  align-items: center ;
 }
 
 .header .account p {
@@ -197,7 +199,13 @@ select {
 }
 
 .header .order {
-    line-height: 1;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
 .header .order:hover {
@@ -366,6 +374,10 @@ justify-content: space-evenly;
   background-color: #485769;
   color: white;
 }
+.upper a{
+    text-decoration: none;
+    color: white;
+}
 
 .copyright {
     min-height: 30px;
@@ -375,4 +387,24 @@ justify-content: space-evenly;
 }
 .copyright p,span{
     font-size: 16px;
+}
+
+
+/******************************************************************
+* Here our auto shop list start 
+*******************************************************************/
+
+.auto-shop-list{
+    display: flex !important; 
+    flex-direction: row !important;
+    justify-content: space-evenly;
+}
+.auto-shop-list-img{
+
+}
+.auto-shop-list-img span{
+    background-color: red;
+    color: white;
+    padding: 5px;
+
 }
