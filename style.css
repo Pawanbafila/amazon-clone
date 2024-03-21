@@ -114,6 +114,8 @@ p {
 i,
 select {
     height: 35px;
+    outline: none;
+    
 }
 
 .search-group i {
@@ -163,7 +165,7 @@ select {
 .header .account {
 
     line-height: 1.2;
-    width: 10%;
+    width: 8%;
     height: 100%;
     flex-direction: column;
   justify-content: center;
@@ -173,7 +175,7 @@ select {
 .header .account p {
     padding: 0 0;
     margin: 0 0 !important;
-    font-size: .8vw;
+    font-size: 1vw;
 }
 
 .header .account:hover {
@@ -181,7 +183,7 @@ select {
 }
 
 .header .account span {
-    font-size: .8vw;
+    font-size: 1.1vw;
 }
 
 
@@ -290,6 +292,7 @@ select {
 
 .header-two .account2 {
     display: none;
+    
 }
 
 
@@ -414,3 +417,11 @@ justify-content: space-evenly;
     padding: 5px;
 
 }
+
+
+
+
+
+
+
+

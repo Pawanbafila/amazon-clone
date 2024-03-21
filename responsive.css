@@ -45,7 +45,10 @@
     .cart i::after{
         top: 0;
     }
-
+    .banner {
+        height: 200px !important;
+        z-index: -1;
+    }
 
 
 
@@ -147,6 +150,13 @@
 
 .copyright p,span{
     font-size: 12px !important;
+
+
+}
+
+.banner {
+    height: 200px !important;
+    z-index: -1;
 }
 
 }
@@ -245,7 +255,7 @@
 
 
     .banner {
-        height: 120px !important;
+        height: 150px !important;
         z-index: -1;
     }
     
