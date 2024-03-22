@@ -301,7 +301,7 @@ select {
 
  .sidenav{
     display: none;
-    position: absolute;
+    position: fixed;
     width: 70%;
     height: 100%;
     background-color: #3c4d62;;
