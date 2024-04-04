@@ -270,12 +270,15 @@ select {
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .header-two ul {
     height: 100%;
     width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     list-style: none;
     font-size: 1vw;
@@ -292,7 +295,7 @@ select {
     justify-content: center;
     align-items: center;
     list-style: none;
-
+d
 
 }
 
@@ -333,6 +336,7 @@ select {
     z-index: 10;
     top: 0;
     left: 0;
+    overflow-y: scroll;
 
 
 
@@ -547,5 +551,59 @@ span {
     background-color: red;
     color: white;
     padding: 5px;
+
+}
+
+
+
+
+/******************************************************************
+* Here our auto run list start 
+*******************************************************************/
+
+.gallery{
+    width: 90%;
+    display: flex;
+    overflow-x: scroll ;
+}
+.gallery div .gallery-box{
+    display: flex; 
+    flex-direction: column;
+  
+}
+.gallery::-webkit-scrollbar{
+    display: none;
+}
+.gallery div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    flex:  none;
+   
+}
+.gallery-parent{
+    border: solid rgba(144, 144, 144, 0.247);
+    width: 100%;
+}
+
+.gallery div img{
+    width: 70%;
+    /* transition: transform 0.5s ; */
+}
+
+.gallery-wrap{
+    display: flex;
+justify-content: center;
+align-items: center;
+    margin: 5%  auto;
+}
+.gallery div img:hover {
+  
+    cursor: pointer;
+    /* transform: scale(1.1); */
+}
+#backbtn , #nextbtn{
+    cursor: pointer;
+    width: 5%;
 
 }
