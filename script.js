@@ -37,7 +37,7 @@ scrollContainer.addEventListener("wheel", (evt) => {
     scrollContainer.style.scrollBehavior = "auto" ;
 
 
-
+4
 });
 nextbtn.addEventListener("click", ()=>{
     scrollContainer.style.scrollBehavior = "smooth" ;
