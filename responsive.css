@@ -331,6 +331,17 @@
     }
     
 }
+@media (max-width:508px) {
+    .gallery div .gallery-box{
+        display: flex; 
+        flex-direction: column;
+        font-size: 3px;
+    
+      
+    }
+    
+    
+}
 
 
 
